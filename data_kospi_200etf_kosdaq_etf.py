@@ -38,7 +38,7 @@ def fdr_kodex200etf_kodexkosdaqetf():
 
     kodexkosdaqetf_price_df = fdr.DataReader('229200')
 
-    kodex200etf_price_df.to_csv('kodex200etf_price.csv', encoding='utf-8-sig')
-    kodexkosdaqetf_price_df.to_csv('kosdaqetf_price.csv', encoding='utf-8-sig')
+    kodex200etf_price_df.to_csv('data/kodex200etf_price.csv', encoding='utf-8-sig')
+    kodexkosdaqetf_price_df.to_csv('data/kosdaqetf_price.csv', encoding='utf-8-sig')
 
 fdr_kodex200etf_kodexkosdaqetf()
